@@ -40,13 +40,13 @@ In this website you will find blogs and awesome articles on many interesting top
 
 ## Known Issues
 
-Check or raise issues [here](./todo issue github url)
+Check or raise issues [here](https://github.com/eaccmk/quality-with-millan/issues)
 
 ---
 
 ## Release Notes
 
-check [changelog.md](./changelog.md) for detailed release notes.
+check [changelog.md](./CHANGELOG.md) for detailed release notes.
 
 
 ---

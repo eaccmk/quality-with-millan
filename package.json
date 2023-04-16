@@ -17,6 +17,13 @@
     "color": "#85F3DD",
     "theme": "light"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eaccmk/quality-with-millan"
+  },
+  "bugs": {
+    "url": "https://github.com/eaccmk/quality-with-millan/issues"
+  },
   "keywords": [
     "testing",
     "blog",
@@ -68,9 +75,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "node ./test/runTest.js",
-    "package": "vsce package",
-    "vscode:prepublish": "npm run compile"
+    "test": "node ./test/runTest.js"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
