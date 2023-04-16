@@ -1,7 +1,7 @@
 {
   "name": "quality-with-millan",
   "displayName": "# Quality With Millan (qwm)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "quality-with-millan",
   "description": "VS code extension, with short commands that take you to QualityWithMillan website, where you can read high quality articles on software testing, quality engineering,  development and coding.",
   "author": {
@@ -9,12 +9,9 @@
   },
   "license": "MIT",
   "icon": "wiki/256x256_M.png",
-  "categories": [
-    "Other",
-    "Testing"
-  ],
+  "categories": ["Testing", "Other"],
   "galleryBanner": {
-    "color": "#85F3DD",
+    "color": "#A9F1E4",
     "theme": "light"
   },
   "repository": {
