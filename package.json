@@ -1,0 +1,86 @@
+{
+  "name": "quality-with-millan",
+  "displayName": "# Quality With Millan (qwm)",
+  "version": "1.0.0-alpha",
+  "publisher": "Millan Kaul",
+  "description": "VS code extension, with short commands that take you to QualityWithMillan website, where you can read high quality articles on software testing, quality engineering,  development and coding.",
+  "author": {
+    "name": "Millan Kaul"
+  },
+  "license": "MIT",
+  "icon": "wiki/256x256_M.png",
+  "categories": [
+    "Other",
+    "Testing"
+  ],
+  "galleryBanner": {
+    "color": "#85F3DD",
+    "theme": "light"
+  },
+  "keywords": [
+    "testing",
+    "blog",
+    "website",
+    "Quality With Millan",
+    "# QualityWithMillan",
+    "extension",
+    "plugin"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "qwm",
+        "title": "Quality With Millan : Home Page",
+        "description": "Open Home Page in default browser"
+      },
+      {
+        "command": "qwm:about",
+        "title": "Quality With Millan : About",
+        "description": "Open About Page in default browser"
+      },
+      {
+        "command": "qwm:posts",
+        "title": "Quality With Millan : Posts",
+        "description": "Open Posts Page in default browser"
+      },
+      {
+        "command": "qwm:categories",
+        "title": "Quality With Millan : Categories",
+        "description": "Open Categories Page in default browser"
+      },
+      {
+        "command": "qwm:tags",
+        "title": "Quality With Millan : Tags",
+        "description": "Open Tags Page in default browser"
+      },
+      {
+        "command": "qwm:tools",
+        "title": "Quality With Millan : Tools",
+        "description": "Open Tools Page in default browser"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js",
+    "package": "vsce package",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.77.0",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.36.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  }
+}
