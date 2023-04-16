@@ -1,8 +1,8 @@
 {
   "name": "quality-with-millan",
   "displayName": "# Quality With Millan (qwm)",
-  "version": "1.0.0-alpha",
-  "publisher": "Millan Kaul",
+  "version": "1.0.0",
+  "publisher": "quality-with-millan",
   "description": "VS code extension, with short commands that take you to QualityWithMillan website, where you can read high quality articles on software testing, quality engineering,  development and coding.",
   "author": {
     "name": "Millan Kaul"
@@ -29,7 +29,7 @@
     "blog",
     "website",
     "Quality With Millan",
-    "# QualityWithMillan",
+    "QualityWithMillan",
     "extension",
     "plugin"
   ],
