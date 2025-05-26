@@ -1,7 +1,7 @@
 {
   "name": "quality-with-millan",
   "displayName": "# Quality With Millan (qwm)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "quality-with-millan",
   "description": "VS code extension, with short commands that take you to QualityWithMillan website, where you can read high quality articles on software testing, quality engineering,  development and coding.",
   "author": {
@@ -31,7 +31,7 @@
     "plugin"
   ],
   "engines": {
-    "vscode": "^1.77.0"
+    "vscode": "^1.89.0"
   },
   "activationEvents": [],
   "main": "./extension.js",
@@ -76,13 +76,13 @@
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "16.x",
-    "@types/vscode": "^1.77.0",
-    "@vscode/test-electron": "^2.3.0",
-    "eslint": "^8.36.0",
-    "glob": "^8.1.0",
-    "mocha": "^10.2.0",
-    "typescript": "^4.9.5"
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.89.0",
+    "@vscode/test-electron": "^2.4.2",
+    "eslint": "^8.57.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5"
   }
 }
